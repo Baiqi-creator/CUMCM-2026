@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "question_id": "Q2",
+  "rigor_profile": "lean",
+  "current_gate": "G1",
+  "status": "problem_parsed_and_classified_waiting_human_framing",
+  "artifacts": {"problem_parse": "planning/parse/problem_parse.json", "method_card": null, "decision_ledger": null, "risk_probe": null, "latest_run": null},
+  "allowed": {"code_generation": false, "freeze": false, "paper_writing": false, "final_assembly": false},
+  "blockers": ["Human pre-screening framing is required before method screening."],
+  "next_action": {"owner": "human", "skill": "decision-prompt-builder", "reason": "Answer the first modeling-framing choice card."},
+  "updated_at": "2026-09-03T19:59:50+08:00"
+}

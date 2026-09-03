@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "question_id": "Q1",
+  "rigor_profile": "lean",
+  "current_gate": "G1",
+  "status": "economic_delta_direction_human_confirmed_waiting_sampling_frame_framing",
+  "artifacts": {"problem_parse": "planning/parse/problem_parse.json", "symbol_table": "planning/symbol_table.md", "assumption_register": "planning/model_assumptions.md", "method_card": null, "decision_ledger": "methods/Q1/q1_decisions.jsonl", "risk_probe": null, "latest_run": null},
+  "allowed": {"code_generation": false, "freeze": false, "paper_writing": false, "final_assembly": false},
+  "blockers": ["The sampling frame is not specified: exact finite-batch without-replacement operating characteristics require batch size, while Bernoulli sequential guarantees require an explicit sampling-model justification."],
+  "next_action": {"owner": "human", "skill": "decision-prompt-builder", "reason": "Choose the Q1 sampling-frame convention for method screening."},
+  "updated_at": "2026-09-03T20:27:07+08:00"
+}

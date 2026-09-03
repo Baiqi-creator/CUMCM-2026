@@ -1,0 +1,92 @@
+{
+  "policy_space_size": 16,
+  "cases": [
+    {
+      "case": 1,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 1.4210854715202004e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 10
+    },
+    {
+      "case": 2,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 1.4210854715202004e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 10
+    },
+    {
+      "case": 3,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 2.842170943040401e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 8
+    },
+    {
+      "case": 4,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 1.4210854715202004e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 10
+    },
+    {
+      "case": 5,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 1.4210854715202004e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 10
+    },
+    {
+      "case": 6,
+      "max_transition_excess": 0.0,
+      "max_bellman_residual": 2.1316282072803006e-14,
+      "invalid_nonabsorbing_policies": [
+        "0001",
+        "0011",
+        "0101",
+        "0111",
+        "1001",
+        "1011"
+      ],
+      "unique_profit_count": 10
+    }
+  ],
+  "zero_defect_profit": 28.0,
+  "zero_defect_expected": 28,
+  "zero_defect_abs_error": 0.0
+}

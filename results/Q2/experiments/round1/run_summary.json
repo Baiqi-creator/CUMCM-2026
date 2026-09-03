@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "question": "Q2",
+  "round": "round1",
+  "implementation_target": "python",
+  "random_seed": 2026,
+  "approved_decision_id": "accelerated_evaluation_override",
+  "methods": [
+    {
+      "method_id": "M2",
+      "role": "main_candidate",
+      "script": "code/Q2/q2_main.py",
+      "status": "success",
+      "execution_time_seconds": 0.03721117973327637,
+      "input_files": [
+        "workspace/data_clean/q2_table1.json"
+      ],
+      "output_files": [
+        "results/Q2/experiments/round1/tables/q2_policy_comparison.csv",
+        "results/Q2/experiments/round1/metrics/sanity_metrics.json"
+      ],
+      "figure_files": [],
+      "metrics_summary": {
+        "policies_enumerated": 16
+      },
+      "warnings": [
+        "Normal G2.5 human method-choice gate bypassed only under user accelerated-evaluation authorization."
+      ],
+      "errors": []
+    },
+    {
+      "method_id": "B2",
+      "role": "usable_baseline",
+      "script": "code/Q2/q2_main.py",
+      "status": "success",
+      "execution_time_seconds": 0.0,
+      "input_files": [
+        "workspace/data_clean/q2_table1.json"
+      ],
+      "output_files": [
+        "results/Q2/experiments/round1/tables/q2_policy_comparison.csv"
+      ],
+      "figure_files": [],
+      "metrics_summary": {},
+      "warnings": [],
+      "errors": []
+    }
+  ],
+  "comparison": {
+    "metric": "expected profit per fulfilled customer demand",
+    "baseline_policy": "0000"
+  },
+  "fallback_trigger": {
+    "fallback_id": null,
+    "condition": "singular system, residual > 1e-9, or transition mass > 1",
+    "observed": false,
+    "evidence": "metrics/sanity_metrics.json"
+  },
+  "environment": {
+    "python": "3.14.4 (main, Jun 18 2026, 14:25:02) [GCC 15.2.0]",
+    "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.43"
+  }
+}
